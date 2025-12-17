@@ -1,4 +1,5 @@
 import RecentActivity from "./recent-activity";
+import Contact from "./contact-us-form";
 
 function Main() {
   return (
@@ -64,6 +65,7 @@ function Main() {
       </div>
       <div className="grid grid-cols-2 gap-4 my-8">
       <RecentActivity/>
+      <Contact/>
       </div>
     </main>
   );
