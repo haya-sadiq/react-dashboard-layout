@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+
+@theme {
+
+    --breakpoint-xs : 30rem;
+}
+
+body{
+  background-color: #f3f4f6;
+}
+
+/* .flex-center {
+  @apply flex items-center justify-center;
+} */
