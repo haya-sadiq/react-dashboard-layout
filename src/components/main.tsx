@@ -1,3 +1,5 @@
+import RecentActivity from "./recent-activity";
+
 function Main() {
   return (
     <main className="mt-28 w-full mx-5 ">
@@ -59,6 +61,9 @@ function Main() {
             Download Report
           </button>
         </div>
+      </div>
+      <div className="grid grid-cols-2 gap-4 my-8">
+      <RecentActivity/>
       </div>
     </main>
   );
