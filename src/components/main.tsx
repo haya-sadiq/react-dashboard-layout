@@ -10,7 +10,7 @@ function Main() {
             <i className="fa-regular fa-user text-3xl text-white px-4.5 py-4 bg-linear-to-r from-blue-400 to-blue-600 rounded-full"></i>
           </div>
           <div>
-            <h2 className="my-2 sm:mt-0 text-2xl sm:text-3xl font-bold text-gray-800">
+            <h2 className="my-2 sm:mt-0 text-2xl md:text-3xl font-bold text-gray-800">
               Welcome back, John!
             </h2>
             <p className="text-gray-600 my-2">
@@ -63,7 +63,7 @@ function Main() {
           </button>
         </div>
       </div>
-      <div className="grid grid-cols-2 gap-4 my-8">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-4 my-8">
       <RecentActivity/>
       <Contact/>
       </div>

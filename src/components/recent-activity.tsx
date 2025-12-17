@@ -1,6 +1,6 @@
 function RecentActivity() {
   return (
-    <div className="bg-white rounded-xl p-6 ">
+    <div className="bg-white rounded-xl p-8 md:p-6 ">
       <h3 className="text-xl font-bold text-gray-800 mb-4">Recent Activity</h3>
       <div className="space-y-4">
       <div className="flex items-center gap-3 p-3 bg-gray-50 rounded-lg">
